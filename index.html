@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag & Drop</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <div id="drag1" class="sortable-list" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h1 class="sortable">Sortable List</h1>
+            <div class="list-items">
+                <div class="list" id="item1" draggable="true" ondragstart="drag(event)">
+                    <p>List Item 4</p>
+                </div>
+                <div class="list" id="item2" draggable="true" ondragstart="drag(event)">
+                    <p>List Item 1</p>
+                </div>
+            </div>
+        </div>
+    
+        <div id="dropzone1" class="sortable-list" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h1 class="sortable">Sortable List</h1>
+            <div class="list-items">
+                <div class="list" id="item3" draggable="true" ondragstart="drag(event)">
+                    <p>List Item 2</p>
+                </div>
+                <div class="list" id="item4" draggable="true" ondragstart="drag(event)">
+                    <p>List Item 1</p>
+                </div>
+                <div class="list" id="item5" draggable="true" ondragstart="drag(event)">
+                    <p>List Item 3</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+   
+   
+   
+   
+   <script src="./app.js">
+
+    </script>
+</body>
+</html>
